@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Arvo";
+    src: url("../fonts/Arvo/Arvo-Regular.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0rem;
+    font-family: Arvo, serif;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+nav img {
+    width: 100vw;
+}
+.navbtn {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.navbtn a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    font-family: Arvo, serif;
+    font-weight:900;
+    width: 100vw;
+}
+.headerinfo {
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.headertext {
+    width: 80vw;
+}
+.headerimg {
+    width: 15vw;  
+}
+.headervideo {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#ranking {
+    width: 100vw;
+}
+.rankingheader {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 15vh;
+    width: 100vw;
+    font-family: Arvo, serif;
+    font-size: 1.7rem;
+    font-weight:900;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+} 
+.rankingheader img {
+    height: 4.5vh;
+}
+.rankingheader img:last-of-type{
+    height: 3.5vh;
+}
+table {    
+    font-family: Arvo, serif;
+    font-weight:300;
+    font-size: 1rem;
+    width: 100vw;
+    text-align: center;  
+}
+.negro {
+    background-color: black;
+    color:white;
+}
+.gris{
+    background-color: gray;
+}
+.sponsorimg {
+    width: 100vw;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 2px;
+}
